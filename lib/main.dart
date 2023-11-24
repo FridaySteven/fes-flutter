@@ -1,3 +1,4 @@
+import 'package:fes_flutter/fes_widget.dart';
 import 'package:fes_flutter/page_1.dart';
 import 'package:fes_flutter/page_2.dart';
 import 'package:flutter/material.dart';

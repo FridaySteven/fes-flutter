@@ -1,3 +1,4 @@
+import 'package:fes_flutter/fes_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -33,9 +34,10 @@ class _Page1State extends State<Page1> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Page 1'),
+        title: const Text('Page 1'),
       ),
-      body: Center(
+      floatingActionButton: const FesWidget(),
+      body: const Center(
         child: Text('Join with portrait and out with portrait'),
       ),
     );
